@@ -20,18 +20,19 @@ public class TesteFilaVetor {
             System.out.println("Valor muito grande. Tamanho padrão de 10 será utilizado.");
             //tamanho = 10; // Repetindo Tamanho = 10;
         }
+        System.out.println("");
 
         FilaDeImpressao filaImpressao = new FilaDeImpressao(tamanho);
         FilaEmergencial filaEmergencial = new FilaEmergencial(tamanho);
 
         int condisao;
         do {
-            System.out.println("Escolha uma opção (0 fecha o programa): " + "\n");
+            System.out.println("Escolha uma opção (0 fecha o programa): ");
             System.out.println("1 - empilhar documento");
             System.out.println("2 - empilhar documento EMERGENCIAL");
             System.out.println("3 - desenfileirar documento (Doc emergencial desempilha primeiro)");
             System.out.println("4 - mostrar fila");
-            System.out.println("5 - Capacidade da fila");
+            System.out.println("5 - Capacidade da fila. \n");
             condisao = sc.nextInt();
 
             if (condisao == 1) {
@@ -62,7 +63,7 @@ public class TesteFilaVetor {
                     LocalTime hora = LocalTime.now();
                     LocalTime horaFormatada = LocalTime.of(hora.getHour(), hora.getMinute(), hora.getSecond());
 
-                    filaImpressao.enfileira(new ItemFila(nomeArquivo, nomePessoa, horaFormatada));
+                    filaEmergencial.enfileira(new ItemFila(nomeArquivo, nomePessoa, horaFormatada));
 
                     System.out.println("hora: " + horaFormatada + " - arquivo: " + nomeArquivo + " - pessoa: " + nomePessoa + "\n");
                 }
@@ -78,19 +79,19 @@ public class TesteFilaVetor {
             } else if (condisao == 4) {
                 if (filaEmergencial.ocupacao != 0)
                     System.out.println("Fila Emergencial: " + filaEmergencial);
-                System.out.println("Fila Emergencial vazia");
+                else
+                    System.out.println("Fila Emergencial vazia");
                 if (filaImpressao.ocupacao != 0)   
                     System.out.println("Fila de Impressao" + filaImpressao);
-                System.out.println("Fila de impressao vazia");
+                else
+                    System.out.println("Fila de impressao vazia");
 
             } else if (condisao == 5) {
-                System.out.println("Fila de Impressao: " + filaImpressao.ocupacao + tamanho);
-                System.out.println("Fila Emergencial: " );
+                System.out.println("Fila de Impressao: \n" + filaImpressao.ocupacao + "/" + tamanho);
+                System.out.println("Fila Emergencial: \n" + filaEmergencial.ocupacao + "/" + tamanho);
 
             } else
-                System.out.println("Opção inválida. Tente novamente.");
-            
+                System.out.println("Opção inválida. Tente novamente.");            
         } while (condisao != 0);
-        
-    }
+   }
 }
