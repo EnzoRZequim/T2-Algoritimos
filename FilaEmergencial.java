@@ -42,7 +42,7 @@ public class FilaEmergencial {
         return aux;
     }
 
-    @Override
+    @Override //Para Oq serve?
     public String toString() {
         if (filaVazia())
             return "fila vazia";

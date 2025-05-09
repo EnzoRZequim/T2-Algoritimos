@@ -7,7 +7,7 @@ public class TesteFilaVetor {
         System.out.println("Qual o tamanho da fila? (0 a 50)");
         Scanner sc = new Scanner(System.in);
         
-        try {
+        try { //Usuario n escolhe
             tamanho = sc.nextInt();
         } catch (Exception e) {
             System.out.println("Valor inválido. Tamanho padrão de 10 será utilizado."); //Repetindo outPut
@@ -36,7 +36,7 @@ public class TesteFilaVetor {
             condisao = sc.nextInt();
 
             if (condisao == 1) {
-                if (filaImpressao.filaCheia()){
+                if (filaImpressao.filaCheia()){ // empilha Doc
                     System.out.println("Fila esta cheia.\n");
                 }else{                
                     System.out.println("Digite o nome do arquivo:");
@@ -51,7 +51,7 @@ public class TesteFilaVetor {
                     
                     System.out.println("hora: " + horaFormatada + " - arquivo: " + nomeArquivo + " - pessoa: " + nomePessoa +"\n");
                 }
-            } else if (condisao == 2) {
+            } else if (condisao == 2) { //empilha Emergencia
                 if (filaEmergencial.filaCheia()){
                     System.out.println("Fila esta cheia.\n");
                 }else {
@@ -68,7 +68,7 @@ public class TesteFilaVetor {
                     System.out.println("hora: " + horaFormatada + " - arquivo: " + nomeArquivo + " - pessoa: " + nomePessoa + "\n");
                 }
 
-            } else if (condisao == 3) {
+            } else if (condisao == 3) { //Desenpilha
                 if (filaEmergencial.ocupacao != 0) 
                     filaEmergencial.desenfileira();                    
                 else if (filaImpressao.ocupacao != 0)
@@ -76,7 +76,7 @@ public class TesteFilaVetor {
                 else
                     System.out.println("Não tem documentos na fila");
 
-            } else if (condisao == 4) {
+            } else if (condisao == 4) { //Mostra Pilha
                 if (filaEmergencial.ocupacao != 0)
                     System.out.println("Fila Emergencial: " + filaEmergencial);
                 else
@@ -86,7 +86,7 @@ public class TesteFilaVetor {
                 else
                     System.out.println("Fila de impressao vazia");
 
-            } else if (condisao == 5) {
+            } else if (condisao == 5) { //Capacidade Fila
                 System.out.println("Fila de Impressao: \n" + filaImpressao.ocupacao + "/" + tamanho);
                 System.out.println("Fila Emergencial: \n" + filaEmergencial.ocupacao + "/" + tamanho);
 
