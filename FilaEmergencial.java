@@ -1,4 +1,4 @@
-public class FilaEmergencial {
+public class FilaEmergencial { // Esse está errado, deveria ser uma pilja
     ItemFila[] dados; 
     int primeiro, ultimo, ocupacao; //Tem como add um dado só para saber que é emergencial quando visualizar a fila ?
 
