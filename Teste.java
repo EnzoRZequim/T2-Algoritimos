@@ -73,7 +73,8 @@ public class Teste {
                 else 
                     System.out.println("Fila de Impressao:\n" + filaImpressao);
             } else if (condicao == 5) { //Capacidade da fila.
-                System.out.println(" Pilha Fila:" + filaImpressao.ocupacao + "/" + filaImpressao.TamanhoVetor() );
+                System.out.println("Pilha Emergencial: " + pilhaEmergencial.topo + "/" + pilhaEmergencial.TamanhoVetor());
+                System.out.println("Fila de Impressao: " + filaImpressao.ocupacao + "/" + filaImpressao.TamanhoVetor() );
             }
         } while (condicao != 0);
     }

@@ -71,10 +71,13 @@ public class PilhaDeEmergencia {
                 return j;
         return -1;
     }
+    public int TamanhoVetor() {
+        return this.vetor.length;
+    }
 }
 
 class VetorVazioException extends RuntimeException {
     public VetorVazioException(String msg) {
         super(msg);
     }
- }
+}
