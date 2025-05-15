@@ -1,5 +1,5 @@
-import java.time.LocalTime;
 import java.time.Duration;
+import java.time.LocalTime;
 import java.util.Scanner;
 
 public class Teste {
@@ -63,8 +63,17 @@ public class Teste {
                     System.out.println("Pilha de emergencia:\n" + pilhaEmergencial.pop());
                 }
                 
-            } else if (condicao == 4) { 
-            } else if (condicao == 5) {
+            } else if (condicao == 4) { // mostrar fila
+                if (pilhaEmergencial.estaVazio())
+                    System.out.println("Pilha Emergencial esta vazia");
+                else
+                    System.out.println("Pilha Emergencial:\n" + pilhaEmergencial);
+                if (filaImpressao.filaVazia())
+                    System.out.println("Fila de Impressao esta vazia");
+                else 
+                    System.out.println("Fila de Impressao:\n" + filaImpressao);
+            } else if (condicao == 5) { //Capacidade da fila.
+                System.out.println(" Pilha Fila:" + filaImpressao.ocupacao + "/" + filaImpressao.TamanhoVetor() );
             }
         } while (condicao != 0);
     }

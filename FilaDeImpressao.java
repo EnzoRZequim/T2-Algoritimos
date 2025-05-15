@@ -1,6 +1,6 @@
 public class FilaDeImpressao {
-    Item[] dados; 
-    int primeiro, ultimo, ocupacao;
+    Item[] dados;
+    public int primeiro, ultimo, ocupacao;
 
     public FilaDeImpressao(int capacidade) {
         primeiro = 0;
@@ -62,5 +62,9 @@ public class FilaDeImpressao {
                 s += dados[i] + " ";
         }
         return s;
+    }
+
+    public int TamanhoVetor() {
+        return this.dados.length;
     }
 }
