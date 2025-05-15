@@ -1,30 +1,30 @@
-public class PilhaEmergencial {
-    ItemFila[] vetor;
+public class PilhaDeEmergencia {
+    Item[] vetor;
     int topo;
 
-    public PilhaEmergencial(int tamanho) {
-        vetor = new ItemFila[tamanho];
+    public PilhaDeEmergencia(int tamanho) {
         topo = 0;
+        vetor = new Item[tamanho];
     }
 
-    public PilhaEmergencial() {
+    public PilhaDeEmergencia() {
         this(10);
     }
 
-    public void push(ItemFila i) {
+    public void push(Item item) {
         if (estaCheio())
             redimensiona(vetor.length * 2);
-        vetor[topo++] = i;
+        vetor[topo++] = item;
     }
 
     public int getTamanho() {
         return vetor.length;
     }
 
-    public ItemFila pop() {
+    public Item pop() {
         if (estaVazio())
             throw new VetorVazioException("vetor vazio, nao ha o que remover");
-            ItemFila aux = vetor[--topo];
+        Item aux = vetor[--topo];
         if (vetor.length >= 6 && topo <= vetor.length / 4)
             redimensiona(vetor.length / 2);
         return aux;
@@ -39,7 +39,7 @@ public class PilhaEmergencial {
     }
 
     private void redimensiona(int novoTamanho) {
-        int[] temp = new int[novoTamanho];
+        Item[] temp = new Item[novoTamanho];
         for (int i = 0; i < topo; i++) {
             temp[i] = vetor[i];
         }
@@ -58,14 +58,14 @@ public class PilhaEmergencial {
         return s + "-----------\n";
     }
 
-    public boolean contem(int i) {
+    public boolean contem(Item i) {
         for (int j = 0; j < topo; j++)
             if (vetor[j] == i)
                 return true;
         return false;
     }
 
-    public int indiceDe(int i) {
+    public int indiceDe(Item i) {
         for (int j = 0; j < topo; j++)
             if (vetor[j] == i)
                 return j;

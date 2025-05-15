@@ -1,11 +1,11 @@
 import java.time.LocalTime;
 
-public class ItemFila {
+public class Item {
     String nomeArquivo;
     String nomePessoa;
     LocalTime hora;
 
-    public ItemFila(String nomeArquivo, String nomePessoa, LocalTime hora) {
+    public Item(String nomeArquivo, String nomePessoa, LocalTime hora) {
         this.nomeArquivo = nomeArquivo;
         this.nomePessoa = nomePessoa;
         this.hora = hora;

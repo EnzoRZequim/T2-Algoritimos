@@ -1,12 +1,12 @@
 public class FilaDeImpressao {
-    ItemFila[] dados; 
+    Item[] dados; 
     int primeiro, ultimo, ocupacao;
 
     public FilaDeImpressao(int capacidade) {
         primeiro = 0;
         ultimo = 0;
         ocupacao = 0;
-        dados = new ItemFila[capacidade];
+        dados = new Item[capacidade];
     }
 
     public FilaDeImpressao() {
@@ -25,7 +25,7 @@ public class FilaDeImpressao {
         return (posicao + 1) % dados.length;
     }
 
-    public void enfileira(ItemFila item) { 
+    public void enfileira(Item item) { 
         if (filaCheia())
             throw new RuntimeException("falha na insercao");
         dados[ultimo] = item;
@@ -33,10 +33,10 @@ public class FilaDeImpressao {
         ocupacao++;
     }
 
-    public ItemFila desenfileira() { 
+    public Item desenfileira() { 
         if (filaVazia())
             throw new RuntimeException("falha na remocao");
-        ItemFila aux = dados[primeiro];
+        Item aux = dados[primeiro];
         primeiro = proximaPosicao(primeiro);
         ocupacao--;
         return aux;
