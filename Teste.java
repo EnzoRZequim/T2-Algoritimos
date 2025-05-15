@@ -77,6 +77,7 @@ public class Teste {
                 System.out.println("Fila de Impressao: " + filaImpressao.ocupacao + "/" + filaImpressao.TamanhoVetor() );
             }
         } while (condicao != 0);
+        sc.close();
     }
     private static Long CalcularDiferenca(Item item)
     {
