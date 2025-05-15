@@ -2,7 +2,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Scanner;
 
-public class Teste {
+public class Teste { //Esta redimencionando os veteros, é para deixar assim?
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);     
 
@@ -53,17 +53,20 @@ public class Teste {
                     break;
                 case 3: // desenfileirar documento (Doc emergencial desempilha primeiro)
                     if (pilhaEmergencial.estaVazio()){
-                        System.out.println("Pilha emergencial vazia");
+                        System.out.println("Pilha emergencial vazia.");
                         if (filaImpressao.filaVazia())
-                        System.out.println("Fila esta vazia");
+                            System.out.println("Fila esta vazia");
                         else{
                             Item desinfilerado = filaImpressao.desenfileira();
                             Long diferenca = CalcularDiferenca(desinfilerado);
-                            System.out.println("Diferença de tempo: " + diferenca + " segundos");
                             System.out.println("Fila de impressao:\n" + desinfilerado);
+                            System.out.println("Diferença de tempo: " + diferenca + " segundos.\n");
                         }
                     } else {
-                        System.out.println("Pilha de emergencia:\n" + pilhaEmergencial.pop());
+                        Item desenpilhado = pilhaEmergencial.pop();
+                        long diferenca = CalcularDiferenca(desenpilhado);
+                        System.out.println("Pilha de emergencia:\n" + desenpilhado);
+                        System.out.println("Diferença de tempo: " + diferenca + " segundos.\n");
                     }
                     break;
                 case 4: // mostrar fila
@@ -77,7 +80,7 @@ public class Teste {
                     System.out.println("Fila de Impressao:\n" + filaImpressao);
                     break;
                 case 5: //Capacidade da fila.
-                    System.out.println("Pilha Emergencial: " + pilhaEmergencial.topo + "/" + pilhaEmergencial.TamanhoVetor());
+                    System.out.println("Pilha Emergencial: " + pilhaEmergencial.topo + "/" + pilhaEmergencial.getTamanho());
                     System.out.println("Fila de Impressao: " + filaImpressao.ocupacao + "/" + filaImpressao.TamanhoVetor() );
                     break;
             }

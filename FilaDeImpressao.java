@@ -1,6 +1,6 @@
 public class FilaDeImpressao {
     Item[] dados;
-    public int primeiro, ultimo, ocupacao;
+    int primeiro, ultimo, ocupacao;
 
     public FilaDeImpressao(int capacidade) {
         primeiro = 0;
@@ -46,11 +46,11 @@ public class FilaDeImpressao {
     public String toString() {
         if (filaVazia())
             return "fila vazia";
-        String s = "";
+        String s = "-----------\n";
         for (int i = primeiro, cont = 0; cont < ocupacao; i = proximaPosicao(i), cont++) {
             s = s + dados[i] + "\n";
         }
-        return s;
+        return s + "-----------\n";
     }
 
     public String stringVetor() {
