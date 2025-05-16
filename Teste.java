@@ -92,8 +92,9 @@ public class Teste { //Esta redimencionando os veteros, é para deixar assim?
         return BigDecimal.valueOf(diferencaHora.getSeconds());
     }
     private static Item lerItem(Scanner sc) {
+        System.out.println("Digite o nome do Arquivo");
         String nomeArquivo = sc.next();
-        System.out.println("Digite o nome da pessoa:");
+        System.out.println("Digite o nome da Pessoa:");
         String nomePessoa = sc.next();
         LocalTime hora = LocalTime.now();
         LocalTime horaFormatada = LocalTime.of(hora.getHour(), hora.getMinute(), hora.getSecond());
