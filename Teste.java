@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Scanner;
@@ -52,13 +53,13 @@ public class Teste { //Esta redimencionando os veteros, é para deixar assim?
                             System.out.println("Fila esta vazia");
                         else{
                             Item desinfilerado = filaImpressao.desenfileira();
-                            Long diferenca = calcularDiferenca(desinfilerado);
+                            BigDecimal diferenca = calcularDiferenca(desinfilerado);
                             System.out.println("Fila de impressao:\n" + desinfilerado);
                             System.out.println("Diferença de tempo: " + diferenca + " segundos.\n");
                         }
                     } else {
                         Item desenpilhado = pilhaEmergencial.pop();
-                        long diferenca = calcularDiferenca(desenpilhado);
+                        BigDecimal diferenca = calcularDiferenca(desenpilhado);
                         System.out.println("Pilha de emergencia:\n" + desenpilhado);
                         System.out.println("Diferença de tempo: " + diferenca + " segundos.\n");
                     }
@@ -81,18 +82,16 @@ public class Teste { //Esta redimencionando os veteros, é para deixar assim?
                     break;
             }
         } while (condicao != 0);
-        sc.close();
+        //sc.close();
     }
-    private static Long calcularDiferenca(Item item)
-    {
+    private static BigDecimal calcularDiferenca(Item item){
         LocalTime hora = LocalTime.now();
         LocalTime horaFormatada = LocalTime.of(hora.getHour(), hora.getMinute(), hora.getSecond());
         Duration diferencaHora = Duration.between(item.hora, horaFormatada);
 
-        return diferencaHora.toSeconds();
+        return BigDecimal.valueOf(diferencaHora.getSeconds());
     }
-        private static Item lerItem(Scanner sc) {
-        System.out.println("Digite o nome do arquivo:");
+    private static Item lerItem(Scanner sc) {
         String nomeArquivo = sc.next();
         System.out.println("Digite o nome da pessoa:");
         String nomePessoa = sc.next();
