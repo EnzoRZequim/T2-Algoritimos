@@ -3,7 +3,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Scanner;
 
-public class Teste { //Esta redimencionando os veteros, é para deixar assim?
+public class Teste {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);     
 
@@ -82,7 +82,7 @@ public class Teste { //Esta redimencionando os veteros, é para deixar assim?
                     break;
             }
         } while (condicao != 0);
-        //sc.close();
+        sc.close();
     }
     private static BigDecimal calcularDiferenca(Item item){
         LocalTime hora = LocalTime.now();

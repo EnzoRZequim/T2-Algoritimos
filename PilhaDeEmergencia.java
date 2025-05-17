@@ -8,12 +8,12 @@ public class PilhaDeEmergencia {
     }
 
     public PilhaDeEmergencia() {
-        this(10);
+        this(5);
     }
 
     public void push(Item item) {
         if (estaCheio())
-            redimensiona(vetor.length * 2);
+            throw new VetorException("vetor esta cheio");
         vetor[topo++] = item;
     }
 
@@ -23,10 +23,8 @@ public class PilhaDeEmergencia {
 
     public Item pop() {
         if (estaVazio())
-            throw new VetorVazioException("vetor vazio, nao ha o que remover");
+            throw new VetorException("vetor vazio, nao ha o que remover");
         Item aux = vetor[--topo];
-        if (vetor.length >= 6 && topo <= vetor.length / 4)
-            redimensiona(vetor.length / 2);
         return aux;
     }
 
@@ -38,13 +36,13 @@ public class PilhaDeEmergencia {
         return topo == 0;
     }
 
-    private void redimensiona(int novoTamanho) {
-        Item[] temp = new Item[novoTamanho];
-        for (int i = 0; i < topo; i++) {
-            temp[i] = vetor[i];
-        }
-        vetor = temp;
-    }
+    // private void redimensiona(int novoTamanho) {
+    //     Item[] temp = new Item[novoTamanho];
+    //     for (int i = 0; i < topo; i++) {
+    //         temp[i] = vetor[i];
+    //     }
+    //     vetor = temp;
+    // }
 
     @Override
     public String toString() {
@@ -73,8 +71,8 @@ public class PilhaDeEmergencia {
     }
 }
 
-class VetorVazioException extends RuntimeException {
-    public VetorVazioException(String msg) {
+class VetorException extends RuntimeException {
+    public VetorException(String msg) {
         super(msg);
     }
 }

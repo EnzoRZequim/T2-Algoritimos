@@ -10,7 +10,7 @@ public class FilaDeImpressao {
     }
 
     public FilaDeImpressao() {
-        this(10);
+        this(5);
     }
 
     public boolean filaVazia() {
