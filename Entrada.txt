@@ -15,6 +15,7 @@ Pessoa4Fila
 1
 Doc5Fila
 Pessoa5Fila
+1
 4
 5
 1
@@ -37,10 +38,6 @@ Pessoa4Pilha
 2
 Doc5Pilha
 Pessoa5Pilha
-3
-2
-Doc6Pilha
-Pessoa6Pilha
 2
 4
 5
@@ -49,9 +46,12 @@ Pessoa6Pilha
 3
 3
 3
+5
 3
 3
 3
 3
 3
-3
+4
+5
+0

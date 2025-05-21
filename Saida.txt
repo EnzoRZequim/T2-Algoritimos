@@ -1,12 +1,4 @@
-//
-A diferenÃ§a de tempo estÃ¡ em 0 pois:
-A entrada Ã© feita instantaneamente, isso siguinifica que 
-enfileirar/empilhar e desenfileirar acontecem no mesmo segundo
-
-
-
-
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -15,7 +7,7 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Pilha Emergencial esta vazia
 Fila de Impressao esta vazia
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -24,7 +16,7 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Pilha Emergencial: 0/5
 Fila de Impressao: 0/5
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -33,9 +25,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc1Fila - pessoa: Pessoa1Fila
+hora: 11:43:01 - arquivo: Doc1Fila - pessoa: Pessoa1Fila
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -44,9 +36,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc2Fila - pessoa: Pessoa2Fila
+hora: 11:43:01 - arquivo: Doc2Fila - pessoa: Pessoa2Fila
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -55,9 +47,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc3Fila - pessoa: Pessoa3Fila
+hora: 11:43:01 - arquivo: Doc3Fila - pessoa: Pessoa3Fila
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -66,9 +58,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc4Fila - pessoa: Pessoa4Fila
+hora: 11:43:01 - arquivo: Doc4Fila - pessoa: Pessoa4Fila
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -77,9 +69,18 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc5Fila - pessoa: Pessoa5Fila
+hora: 11:43:01 - arquivo: Doc5Fila - pessoa: Pessoa5Fila
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
+1 - enfilera documento
+2 - empilhar documento EMERGENCIAL
+3 - desenfileirar documento (Doc emergencial desempilha primeiro)
+4 - mostrar fila
+5 - Capacidade da fila. 
+
+Fila esta cheia.
+
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -89,14 +90,14 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 Pilha Emergencial esta vazia
 Fila de Impressao:
 -----------
-Arquivo: Doc1Fila, Pessoa: Pessoa1Fila, Hora: 14:42:33
-Arquivo: Doc2Fila, Pessoa: Pessoa2Fila, Hora: 14:42:33
-Arquivo: Doc3Fila, Pessoa: Pessoa3Fila, Hora: 14:42:33
-Arquivo: Doc4Fila, Pessoa: Pessoa4Fila, Hora: 14:42:33
-Arquivo: Doc5Fila, Pessoa: Pessoa5Fila, Hora: 14:42:33
+Arquivo: Doc1Fila, Pessoa: Pessoa1Fila, Hora: 11:43:01
+Arquivo: Doc2Fila, Pessoa: Pessoa2Fila, Hora: 11:43:01
+Arquivo: Doc3Fila, Pessoa: Pessoa3Fila, Hora: 11:43:01
+Arquivo: Doc4Fila, Pessoa: Pessoa4Fila, Hora: 11:43:01
+Arquivo: Doc5Fila, Pessoa: Pessoa5Fila, Hora: 11:43:01
 -----------
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -105,7 +106,7 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Pilha Emergencial: 0/5
 Fila de Impressao: 5/5
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -114,7 +115,7 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Fila esta cheia.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -122,11 +123,11 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 5 - Capacidade da fila. 
 
 Pilha emergencial vazia.
-Fila de impressao:
-Arquivo: Doc1Fila, Pessoa: Pessoa1Fila, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Fila de Impressão:
+Arquivo: Doc1Fila, Pessoa: Pessoa1Fila, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 645 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -135,9 +136,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc6Fila - pessoa: Pessoa6Fila
+hora: 11:43:01 - arquivo: Doc6Fila - pessoa: Pessoa6Fila
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -146,9 +147,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc1Pilha - pessoa: Pessoa1Pilha
+hora: 11:43:01 - arquivo: Doc1Pilha - pessoa: Pessoa1Pilha
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -157,9 +158,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc2Pilha - pessoa: Pessoa2Pilha
+hora: 11:43:01 - arquivo: Doc2Pilha - pessoa: Pessoa2Pilha
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -168,9 +169,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc3Pilha - pessoa: Pessoa3Pilha
+hora: 11:43:01 - arquivo: Doc3Pilha - pessoa: Pessoa3Pilha
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -179,9 +180,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc4Pilha - pessoa: Pessoa4Pilha
+hora: 11:43:01 - arquivo: Doc4Pilha - pessoa: Pessoa4Pilha
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -190,31 +191,9 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Digite o nome do Arquivo
 Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc5Pilha - pessoa: Pessoa5Pilha
+hora: 11:43:01 - arquivo: Doc5Pilha - pessoa: Pessoa5Pilha
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
-1 - enfilera documento
-2 - empilhar documento EMERGENCIAL
-3 - desenfileirar documento (Doc emergencial desempilha primeiro)
-4 - mostrar fila
-5 - Capacidade da fila. 
-
-Pilha de emergencia:
-Arquivo: Doc5Pilha, Pessoa: Pessoa5Pilha, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
-
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
-1 - enfilera documento
-2 - empilhar documento EMERGENCIAL
-3 - desenfileirar documento (Doc emergencial desempilha primeiro)
-4 - mostrar fila
-5 - Capacidade da fila. 
-
-Digite o nome do Arquivo
-Digite o nome da Pessoa:
-hora: 14:42:33 - arquivo: Doc6Pilha - pessoa: Pessoa6Pilha
-
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -222,7 +201,7 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 5 - Capacidade da fila. 
 
 Pilha esta cheia
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -231,23 +210,23 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Pilha Emergencial:
 -----------
-Arquivo: Doc6Pilha, Pessoa: Pessoa6Pilha, Hora: 14:42:33
-Arquivo: Doc4Pilha, Pessoa: Pessoa4Pilha, Hora: 14:42:33
-Arquivo: Doc3Pilha, Pessoa: Pessoa3Pilha, Hora: 14:42:33
-Arquivo: Doc2Pilha, Pessoa: Pessoa2Pilha, Hora: 14:42:33
-Arquivo: Doc1Pilha, Pessoa: Pessoa1Pilha, Hora: 14:42:33
+Arquivo: Doc5Pilha, Pessoa: Pessoa5Pilha, Hora: 11:43:01
+Arquivo: Doc4Pilha, Pessoa: Pessoa4Pilha, Hora: 11:43:01
+Arquivo: Doc3Pilha, Pessoa: Pessoa3Pilha, Hora: 11:43:01
+Arquivo: Doc2Pilha, Pessoa: Pessoa2Pilha, Hora: 11:43:01
+Arquivo: Doc1Pilha, Pessoa: Pessoa1Pilha, Hora: 11:43:01
 -----------
 
 Fila de Impressao:
 -----------
-Arquivo: Doc2Fila, Pessoa: Pessoa2Fila, Hora: 14:42:33
-Arquivo: Doc3Fila, Pessoa: Pessoa3Fila, Hora: 14:42:33
-Arquivo: Doc4Fila, Pessoa: Pessoa4Fila, Hora: 14:42:33
-Arquivo: Doc5Fila, Pessoa: Pessoa5Fila, Hora: 14:42:33
-Arquivo: Doc6Fila, Pessoa: Pessoa6Fila, Hora: 14:42:33
+Arquivo: Doc2Fila, Pessoa: Pessoa2Fila, Hora: 11:43:01
+Arquivo: Doc3Fila, Pessoa: Pessoa3Fila, Hora: 11:43:01
+Arquivo: Doc4Fila, Pessoa: Pessoa4Fila, Hora: 11:43:01
+Arquivo: Doc5Fila, Pessoa: Pessoa5Fila, Hora: 11:43:01
+Arquivo: Doc6Fila, Pessoa: Pessoa6Fila, Hora: 11:43:01
 -----------
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -256,86 +235,71 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 
 Pilha Emergencial: 5/5
 Fila de Impressao: 5/5
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Pilha de emergencia:
-Arquivo: Doc6Pilha, Pessoa: Pessoa6Pilha, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Pilha de Emergencia:
+Arquivo: Doc5Pilha, Pessoa: Pessoa5Pilha, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 707 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Pilha de emergencia:
-Arquivo: Doc4Pilha, Pessoa: Pessoa4Pilha, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Pilha de Emergencia:
+Arquivo: Doc4Pilha, Pessoa: Pessoa4Pilha, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 707 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Pilha de emergencia:
-Arquivo: Doc3Pilha, Pessoa: Pessoa3Pilha, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Pilha de Emergencia:
+Arquivo: Doc3Pilha, Pessoa: Pessoa3Pilha, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 708 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Pilha de emergencia:
-Arquivo: Doc2Pilha, Pessoa: Pessoa2Pilha, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Pilha de Emergencia:
+Arquivo: Doc2Pilha, Pessoa: Pessoa2Pilha, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 708 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Pilha de emergencia:
-Arquivo: Doc1Pilha, Pessoa: Pessoa1Pilha, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Pilha de Emergencia:
+Arquivo: Doc1Pilha, Pessoa: Pessoa1Pilha, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 708 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Pilha emergencial vazia.
-Fila de impressao:
-Arquivo: Doc2Fila, Pessoa: Pessoa2Fila, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
-
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
-1 - enfilera documento
-2 - empilhar documento EMERGENCIAL
-3 - desenfileirar documento (Doc emergencial desempilha primeiro)
-4 - mostrar fila
-5 - Capacidade da fila. 
-
-Pilha emergencial vazia.
-Fila de impressao:
-Arquivo: Doc3Fila, Pessoa: Pessoa3Fila, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
-
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Pilha Emergencial: 0/5
+Fila de Impressao: 5/5
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -343,11 +307,11 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 5 - Capacidade da fila. 
 
 Pilha emergencial vazia.
-Fila de impressao:
-Arquivo: Doc4Fila, Pessoa: Pessoa4Fila, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Fila de Impressão:
+Arquivo: Doc2Fila, Pessoa: Pessoa2Fila, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 709 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -355,11 +319,11 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 5 - Capacidade da fila. 
 
 Pilha emergencial vazia.
-Fila de impressao:
-Arquivo: Doc5Fila, Pessoa: Pessoa5Fila, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Fila de Impressão:
+Arquivo: Doc3Fila, Pessoa: Pessoa3Fila, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 710 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -367,11 +331,11 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 5 - Capacidade da fila. 
 
 Pilha emergencial vazia.
-Fila de impressao:
-Arquivo: Doc6Fila, Pessoa: Pessoa6Fila, Hora: 14:42:33
-Diferenï¿½a de tempo: 0 segundos.
+Fila de Impressão:
+Arquivo: Doc4Fila, Pessoa: Pessoa4Fila, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 710 ms.
 
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
@@ -379,12 +343,44 @@ Escolha uma opï¿½ï¿½o (0 fecha o programa):
 5 - Capacidade da fila. 
 
 Pilha emergencial vazia.
-Fila esta vazia
-Escolha uma opï¿½ï¿½o (0 fecha o programa): 
+Fila de Impressão:
+Arquivo: Doc5Fila, Pessoa: Pessoa5Fila, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 711 ms.
+
+Escolha uma opção (0 fecha o programa): 
 1 - enfilera documento
 2 - empilhar documento EMERGENCIAL
 3 - desenfileirar documento (Doc emergencial desempilha primeiro)
 4 - mostrar fila
 5 - Capacidade da fila. 
 
-Entrada invalida. Tente novamente.
+Pilha emergencial vazia.
+Fila de Impressão:
+Arquivo: Doc6Fila, Pessoa: Pessoa6Fila, Hora: 11:43:01
+Diferença de tempo: 0 min, 0 s, 711 ms.
+
+Escolha uma opção (0 fecha o programa): 
+1 - enfilera documento
+2 - empilhar documento EMERGENCIAL
+3 - desenfileirar documento (Doc emergencial desempilha primeiro)
+4 - mostrar fila
+5 - Capacidade da fila. 
+
+Pilha Emergencial esta vazia
+Fila de Impressao esta vazia
+Escolha uma opção (0 fecha o programa): 
+1 - enfilera documento
+2 - empilhar documento EMERGENCIAL
+3 - desenfileirar documento (Doc emergencial desempilha primeiro)
+4 - mostrar fila
+5 - Capacidade da fila. 
+
+Pilha Emergencial: 0/5
+Fila de Impressao: 0/5
+Escolha uma opção (0 fecha o programa): 
+1 - enfilera documento
+2 - empilhar documento EMERGENCIAL
+3 - desenfileirar documento (Doc emergencial desempilha primeiro)
+4 - mostrar fila
+5 - Capacidade da fila. 
+
