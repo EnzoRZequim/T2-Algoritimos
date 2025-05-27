@@ -16,8 +16,10 @@ public class Teste {
                 System.out.println("1 - enfilera documento");
                 System.out.println("2 - empilhar documento EMERGENCIAL");
                 System.out.println("3 - desenfileirar documento (Doc emergencial desempilha primeiro)");
-                System.out.println("4 - mostrar fila");
-                System.out.println("5 - Capacidade da fila. \n");
+                System.out.println("4 - Buscar Doc na Fila");
+                System.out.println("5 - Buscar Doc na Pilha ");
+                System.out.println("6 - mostrar fila e pilha");
+                System.out.println("7 - Capacidade da fila. \n");
                 try {
                     condicao = sc.nextInt();
                     break;
@@ -60,7 +62,33 @@ public class Teste {
                             RemoveDados(desenpilhado, TipoDados.PilhaDeEmergencia);                            
                         }
                         break;
-                    case 4: // mostrar fila
+                    case 4: //Posição doc Fila
+                        if (!filaImpressao.filaVazia()){
+                            System.out.println("Digite o nome do documento que quer saber a posicao");
+                            String buscado = sc.next();
+                            int posicao = filaImpressao.posicaoDoc(buscado);                        
+                            if (posicao == 0)
+                                System.out.println("Seu arquivo é o proximo");
+                            else
+                                System.out.println(posicao+ " Arquivos na sua frente");
+                        }
+                        else
+                            System.out.println("Fila esta vasia.");
+                        break;
+                    case 5: //Posição doc Pilha
+                        if (!pilhaEmergencial.estaVazio()){
+                            System.out.println("Digite o nome do documento que quer saber a posicao");
+                            String buscado = sc.next();
+                            int posicao = pilhaEmergencial.posicaoDoc(buscado);
+                            if (posicao == 1)
+                                System.out.println("Seu arquivo e o proximo");
+                            else
+                                System.out.println((posicao-1) + " Arquivos na sua frente");
+                        }
+                        else 
+                            System.out.println("Pilha vazia");
+                        break;
+                    case 6: // mostrar fila
                         if (pilhaEmergencial.estaVazio())
                             System.out.println("Pilha Emergencial esta vazia");
                         else
@@ -70,7 +98,7 @@ public class Teste {
                         else 
                             System.out.println("Fila de Impressao:\n" + filaImpressao);
                         break;
-                    case 5: //Capacidade da fila.
+                    case 7: //Capacidade da fila.
                         System.out.println("Pilha Emergencial: " + pilhaEmergencial.topo + "/" + pilhaEmergencial.getTamanho());
                         System.out.println("Fila de Impressao: " + filaImpressao.ocupacao + "/" + filaImpressao.TamanhoVetor() );
                         break;

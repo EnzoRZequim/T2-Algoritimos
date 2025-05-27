@@ -23,7 +23,7 @@ public class PilhaDeEmergencia {
 
     public Item pop() {
         if (estaVazio())
-            throw new VetorException("vetor vazio, nao ha o que remover");
+            throw new VetorException("Pilha vazia, nao ha o que remover");
         Item aux = vetor[--topo];
         return aux;
     }
@@ -43,6 +43,15 @@ public class PilhaDeEmergencia {
     //     }
     //     vetor = temp;
     // }
+
+    public int posicaoDoc(String nomeDoc){
+        for (int i = topo -1, pos=1; i >= 0; i--, pos++){
+            if(nomeDoc.equals(vetor[i].getNomeArquivo())){
+                return pos;
+            }
+        }
+        return -1;
+    }
 
     @Override
     public String toString() {

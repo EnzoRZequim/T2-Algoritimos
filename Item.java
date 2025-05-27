@@ -11,6 +11,10 @@ public class Item {
         this.hora = hora;
     }
 
+    public String getNomeArquivo() {
+        return nomeArquivo;
+    }
+
     @Override
     public String toString() {
         return "Arquivo: " + nomeArquivo + ", Pessoa: " + nomePessoa + ", Hora: " + hora;

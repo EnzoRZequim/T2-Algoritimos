@@ -42,6 +42,14 @@ public class FilaDeImpressao {
         return aux;
     }
 
+    public int posicaoDoc (String nomeDoc){
+        for (int i = primeiro, cont = 0; cont < ocupacao; i = proximaPosicao(i), cont++){
+            if (nomeDoc.equals(dados[i].getNomeArquivo()))
+                return cont;            
+        }
+        return -1;
+    }
+
     @Override
     public String toString() {
         if (filaVazia())
