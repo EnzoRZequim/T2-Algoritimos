@@ -23,6 +23,10 @@ public class Teste {
                 System.out.println("0 - Fecha o programa.\n");
                 try {
                     condicao = sc.nextInt();
+                    if ((0 > condicao) || (condicao <= 8 )){
+                        System.out.println("Opcao inexistente");
+                        break;
+                    }
                     break;
                 } catch (Exception e) {
                     System.out.println("Entrada invalida. Tente novamente.\n");
@@ -74,7 +78,7 @@ public class Teste {
                                 System.out.println(posicao+ " Arquivos na sua frente.");
                         }
                         else
-                            System.out.println("Fila esta vasia.");
+                            System.out.println("Fila esta vazia.");
                         break;
                     case 5: //Posição doc Pilha
                         if (!pilhaEmergencial.estaVazio()){
